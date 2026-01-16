@@ -1,0 +1,18 @@
+// ===========================================
+// LAYOUT - Estructuras principales
+// ===========================================
+
+.l-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.l-page-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #000;
+}

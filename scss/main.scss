@@ -1,0 +1,17 @@
+// ===========================================
+// MAIN SCSS - SMACSS Architecture
+// Compilar con: sass scss/main.scss styles.css
+// ===========================================
+
+// SMACSS layers en orden:
+// 1. Base
+// 2. Layout
+// 3. Module
+// 4. State
+// 5. Theme
+
+@use 'theme/theme';
+@use 'base/base';
+@use 'layout/layout';
+@use 'modules/profile-card';
+@use 'state/state';

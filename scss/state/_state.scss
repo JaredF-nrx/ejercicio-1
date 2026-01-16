@@ -1,0 +1,33 @@
+// ===========================================
+// STATE - Estados (hover, active, disabled)
+// ===========================================
+
+// Estado hover de la tarjeta
+.is-elevated {
+  transform: translateY(-5px);
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+// Estado hover de enlaces
+.profile-card-link:hover {
+  color: #4267B2;
+}
+
+// Estado hover del botón
+.profile-card-btn:hover {
+  background-color: #333;
+}
+
+// Estado activo del botón
+.profile-card-btn:active {
+  transform: scale(0.98);
+}
+
+// Estado disabled (opcional)
+.is-disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
